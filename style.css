@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+
+#game {
+    position: absolute;
+    height: fit-content;
+    width: fit-content;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: darkcyan;
+    display: grid;
+}
+
+#info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    font-size: xx-large;
+}
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.btn {
+    height: 10rem;
+    width: 10rem;
+    background-color: red;
+}
+
+.mole {
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+}
+
+#total-score {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-top: 0.7rem;
+    font-size: xx-large;
+}
+
+.appears {
+    position: relative;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color:lightgreen;
+    border-style: outset;
+    border-width: 3px;
+    border-radius: 50%;
+    height: 4rem;
+    width: 4rem;
+}
+
+.hide {
+    display : none;
+}
+
+.visible {
+    visibility: hidden;
+}
+
+#res-btn {
+    display: flex;
+    justify-content: center;
+}
+
+#play, #restart {
+    border-radius: 10px;
+    width: fit-content;
+    margin-top: 2rem;
+    margin-bottom: 0.7rem;
+    font-size: xx-large;
+}
+
+#play:hover, #restart:hover {
+    transition: 0.7s;
+    background-color: darkgreen;
+    cursor:pointer;
+}
